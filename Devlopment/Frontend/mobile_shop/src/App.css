@@ -43,3 +43,72 @@
   object-fit: cover;
   display: block;
 }
+
+/* PRODUCTS */
+#img-body {
+  padding-top: 0px;
+}
+
+.img-adjust {
+  height: 500px;
+  width: 1262px;
+  object-fit: cover;
+}
+
+#products {
+  margin-top: 20px;
+}
+
+.product-bar {
+  background-color: white;
+  padding: 15px 20px 15px 20px;
+}
+
+.bttn {
+  color: white;
+  float: right;
+  background-color: rgb(118, 118, 210);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.product-slides {
+  padding: 20px 0 20px 0px;
+}
+
+.imgtext:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-out;
+}
+
+.imgSize {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
+.text1 {
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.text1 a {
+  color: black;
+  font-family: Rubik;
+  font-style: SemiBold;
+  text-decoration: none;
+}
+
+.text1 a:hover {
+  color: black;
+}
+/* PRODUCT ENDS */
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}

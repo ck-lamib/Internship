@@ -1,19 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
-import { NavBar } from './NavBar';
-import { Product } from './Product';
-import { Slider } from './Slider.js';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Login } from './Login';
+import { Home } from './Home';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Slider />
-      <Product/>
-      {/* product component
-      footer */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Login" element={<Login />} />
 
+      </Routes>
+    </BrowserRouter>
   );
 }
 
